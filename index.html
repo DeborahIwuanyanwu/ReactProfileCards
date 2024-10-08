@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite + React</title>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
+
+
+
+
+
+
+
+
+<!-- 
+import React, { useState, useMemo } from "react";
+
+function Counter() {
+  const [counterOne, setCounterOne] = useState(0);
+  const [counterTwo, setCounterTwo] = useState(0);
+
+  function incrementOne() {
+    setCounterOne((counterOne) => counterOne + 1);
+  }
+  function incrementTwo() {
+    setCounterTwo((counterTwo) => counterTwo + 1);
+  }
+
+  // const isEven = useMemo(() => {
+  //   let i = 0
+  //   while(i < 200) i++
+  //   return counterOne % 2 === 0
+  // },[counterOne] )
+
+  
+  const isEven =useMemo( () => {
+    let i = 0;
+    while (i < 2000000000) i++;
+    return counterOne % 2 === 0;
+  }, [counterOne]
+)
+  
+  
+  
+
+  return (
+    <>
+      <button onClick={incrementOne}>Count one - {counterOne} </button>
+      <span>{isEven ? "Even" : "Odd"}</span>
+      <button onClick={incrementTwo}>Count two -{counterTwo} </button>
+    </>
+  );
+}
+export default Counter; -->
